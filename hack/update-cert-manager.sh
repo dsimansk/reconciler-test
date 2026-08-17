@@ -23,4 +23,4 @@ metadata:
 EOF
 }
 
-update_cert_manager "v1.20.2" "v0.22.1"
+update_cert_manager "v1.20.3" "v0.24.0"
