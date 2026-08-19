@@ -23,4 +23,4 @@ metadata:
 EOF
 }
 
-update_cert_manager "v1.20.3" "v0.24.0"
+update_cert_manager "${1:-${CERT_MANAGER_VERSION:-v1.20.3}}" "${2:-${TRUST_MANAGER_VERSION:-v0.24.0}}"
